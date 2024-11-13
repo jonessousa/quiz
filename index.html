@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Programação Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz de Programação Web e JavaScript</h1>
+    <div id="ini">
+        <button onclick="iniciarQuiz()">Iniciar Quiz</button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+        <form id="form-quiz"></form>
+        <button type="button" onclick="calcularResultado()">Enviar Respostas</button>
+    </div>
+
+    <div id="resultado" style="display:none;">
+        <h2>Resultado</h2>
+        <p id="resultado-texto"></p>
+        <button onclick="reiniciarQuiz()">Reiniciar Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
